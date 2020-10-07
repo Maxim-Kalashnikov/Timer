@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #354773;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.time-second{
+    padding: 10px,0,0,0;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-right: 20px;
+    font-size: 25px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 2px;
+    height: 25px;
+    background-color: #fff;
+    margin: 5px;
+}
+.count{
+    margin-left: 15px;
+}
+.units{
+    margin-left: 10px;
+}
